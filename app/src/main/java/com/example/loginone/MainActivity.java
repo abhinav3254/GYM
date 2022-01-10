@@ -25,16 +25,15 @@ public class MainActivity extends AppCompatActivity {
 
         S_SignUp = findViewById(R.id.S_SignUp);
 
+        S_SignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,SignUpActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
     }
 
-    public void SignUp(View view) {
-     S_SignUp.setOnClickListener(new View.OnClickListener() {
-         @Override
-         public void onClick(View view) {
-             Intent intent = new Intent(MainActivity.this,SignUpActivity.class);
-             startActivity(intent);
-             finish();
-         }
-     });
-    }
 }

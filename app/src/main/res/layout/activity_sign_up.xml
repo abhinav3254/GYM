@@ -146,6 +146,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:id="@+id/S_SignIn"
+            android:elevation="0dp"
             />
 
     </LinearLayout>

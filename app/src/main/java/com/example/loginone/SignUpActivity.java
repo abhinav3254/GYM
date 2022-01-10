@@ -23,10 +23,15 @@ public class SignUpActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         S_SignIn = findViewById(R.id.S_SignIn);
+
+        S_SignIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SignUpActivity.this,MainActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
-    public void SignIn(View view){
-        Intent intent = new Intent(SignUpActivity.this,MainActivity.class);
-        startActivity(intent);
-        finish();
-    }
+
 }

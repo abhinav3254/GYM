@@ -52,7 +52,6 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="10dp"
-        android:onClick="SignUp"
         android:orientation="vertical">
 
         <com.google.android.material.textfield.TextInputLayout
@@ -119,6 +118,7 @@
         android:text="New User Sign Up"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
+        android:elevation="0dp"
         />
 
 
