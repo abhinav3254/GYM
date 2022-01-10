@@ -94,7 +94,7 @@
             android:layout_marginTop="4dp"
             android:layout_marginRight="10dp"
             android:fontFamily="serif"
-            android:text="Already Account?"
+            android:text="Forget Password?"
             android:textColor="@color/black"
             android:textSize="20dp" />
 
@@ -106,18 +106,21 @@
             android:text="GO"
             android:textColor="@color/white" />
 
-        <TextView
-            android:id="@+id/S_SignUp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:fontFamily="@font/bungee_regular_2"
-            android:text="New User Sign Up"
-            android:textColor="@color/black"
-            android:textSize="20dp"/>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/S_SignUp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="New User Sign Up"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        />
+
 
 
 </LinearLayout>
