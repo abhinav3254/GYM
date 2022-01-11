@@ -5,7 +5,10 @@
       <map>
         <entry key="..\:/Android projects/LogInOne/app/src/main/res/font/font.xml" value="0.28020833333333334" />
         <entry key="..\:/Android projects/LogInOne/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android projects/LogInOne/app/src/main/res/layout/activity_main2.xml" value="0.2359375" />
         <entry key="..\:/Android projects/LogInOne/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Android projects/LogInOne/app/src/main/res/layout/activity_spalsh_screen.xml" value="0.2359375" />
+        <entry key="..\:/Android projects/LogInOne/app/src/main/res/layout/activity_spash_acitvity.xml" value="0.25" />
       </map>
     </option>
   </component>
